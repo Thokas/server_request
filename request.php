@@ -107,6 +107,9 @@
 						'race'			=> $char['race'],
 						'class'			=> $char['class'],
 						'gender'		=> $char['gender'],
+						'money'			=> $char['money'],
+						'playerbytes'	=> $char['playerBytes'],
+						'playerbytes2'	=> $char['playerBytes2'],
 						'positionX'		=> $char['position_x'],
 						'positionY'		=> $char['position_y'],
 						'positionZ'		=> $char['position_z'],
@@ -258,6 +261,9 @@
 				<race>{$char['race']}</race>
 				<class>{$char['class']}</class>
 				<gender>{$char['gender']}</gender>
+				<money>{$char['money']}</money>
+				<playerbytes>{$char['playerbytes']}</playerbytes>
+				<playerbytes2>{$char['playerbytes2']}</playerbytes2>
 				<posX>{$char['positionX']}</posX>
 				<posY>{$char['positionY']}</posY>
 				<posZ>{$char['positionZ']}</posZ>
