@@ -1,52 +1,8 @@
-# Das WoW RP-Server Abfrage Script #
+Das WoW RP-Server Abfrage Script
+-----------------------------
 
-Ein Abfrage Script für RP-Welten Partner um verschiedene Serverdaten in XML Form auszugeben.
+Ein Abfrage Script für RP-Welten Partner um Accountdaten, Charakterdaten sowie Gildendaten in XML Form auszugeben.
 
-Abgefragt Daten
--------------------
-1. Accounts
- - ID
- - Username
- - Joindate
- - Mutetime
- - GM Level
- - Bandate, Bannedby, Banreason
- - Lastlogin
- 
-2. Gilden
- - ID
- - Name
- - leader GUID
- - Emblem Style
- - Info
- - Message of the Day
- - Createdate
- - Bankmoney
- - Ranks
- 	- Name
- 	- Rights
- 	- Moneyallow
-	
-3. Charaktere
- - GUID
- - Onlinestate
- - Name
- - Race
- - Class
- - Gender
- - Money
- - PlayerBytes
- - PlayerBytes2
- - Position X, Position Y, Position Z, Orientation, MapID
- - Bandate, Bannedby, Banreason
- - Lastlogin
- - Playedtime
- - Guild ID
- - Friends
- 	- Friend GUID
- 	- Flags
- 	- Note
- - Current Equipment
 
 Setup
 -----
